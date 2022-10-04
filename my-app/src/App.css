@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  font-family: inter;
+}
+body {
+  width: 550px;
+  height: 704px;
+  padding-left: 30%;
+  padding-top: 20px;
+  overflow-x: hidden; 
+  padding-right: 50%;
+}
+.nav {
+  background-color: #f55a5a;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.nav--text {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+.globe {
+  padding-right: 7px;
+  height: 24px;
+  width: 24px;
+}
+.hero {
+  display: flex;
+}
+.loc--pic {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.loc--pointer {
+  display: flex;
+  height: 9px;
+  width: 7px;
+}
+.title-pointer {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-bottom: 7px;
+}
+.location {
+  font-size: 10px;
+  font-weight: 400;
+  color: #2b283a;
+  width: 40px;
+  padding-left: 4px;
+  margin-right: 5px;
+  height: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: center;
+  flex-shrink: 1;
+}
+.link {
+  color: #918e9b;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-left: 20px;
+  align-self: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -10px;
+  color: #2b283a;
+}
+.date {
+  font-size: 10px;
+  color: #2b283a;
+  margin-top: -5px;
+}
+.description {
+  font-size: 11px;
+  font-weight: 400;
+  width: 326px;
+  height: 45px;
+}
+.break {
+  width: 478px;
+}
